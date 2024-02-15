@@ -1,0 +1,25 @@
+*MANUAL*
+
+Purpose:
+
+This python function counts the number of dead ants mentioned in a line of text. The code analyzes the text for ocurrences of the word "ant" and potential "ant bodies" to estimate the number of dead ants.
+
+
+HOW TO USE:
+
+- Import the function: If the function is in a separate file, import it into your python script, using the following statement:
+
+from my_file import count_dead_ants
+# replace "my_file" with the actual file name
+
+
+
+- Call the function: To use the function, simply call it without any arguments:
+
+dead_ants_count = count_dead_ants()
+
+
+
+- Access the result: The function will ask you to enter a line of text to analyze. Type the text and press Enter. The function will then return the calculated number of dead ants, which you can store in a variable:
+
+print(f"Number of dead ants: {dead_ants_count}")

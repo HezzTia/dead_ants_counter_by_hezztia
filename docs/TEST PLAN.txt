@@ -1,0 +1,49 @@
+*TEST PLAN*
+
+Test plan for the count_dead_ants() function
+
+Objectives:
+- Ensure the function accurately counts dead ants in varios text scenarios
+- Verify its handling of edge cases and potential erros.
+
+
+
+TEST SCENARIOS
+
+POSITIVE
+
+- Basic Counting of a single ocurrence of "ant"
+- Counting of multiple ocurrences of "ant"
+- Manages overlapping ants like "antant"
+- Manages bodies with extra letters like "aant"
+- Manages mixed cases with uppercase and lowercase letters like "Ant"
+
+
+NEGATIVE
+
+- Manages empty input, text with no ants
+- Manages input with no text, for example, numbers
+- Manages unexpected characters.
+
+
+
+
+PROCEDURES
+
+- For each scenario, call the function with the appropiate input.
+- Compare the returned value of the count of dead ants.
+- Record any unexpected behavior or erros for fixing.
+
+
+
+
+EXPECTED RESULTS
+
+- The function should accurately count dead ants in all positive scenarios.
+- It should handle negative scenarios gracefully
+
+
+
+ADDITIONAL CONSIDERATIONS
+
+- Explore potential performance implications for long text inputs.
