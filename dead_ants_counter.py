@@ -1,4 +1,5 @@
 #emily cabrera - 1106145
+# this program counts dead ants in a line of text
 
 def count_dead_ants():
 # this function asks the user for a line of text and counts the dead ants in it
