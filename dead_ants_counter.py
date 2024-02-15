@@ -16,4 +16,4 @@ def _count_dead_ants(line):
     return dead_ants
 
 dead_ants = count_dead_ants()
-print("Number of dead ants: {dead_ants}")
+print(f"Number of dead ants: {dead_ants}")
